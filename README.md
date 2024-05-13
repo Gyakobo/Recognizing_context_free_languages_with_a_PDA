@@ -59,3 +59,136 @@ $\Rightarrow abba(1.2 * (1. - 2. + H))abba \Rightarrow abba(1.2 * (1. - 2. + Y.Y
 Here's a simple graphic demonstration of the PDA:
 
 <img src="assets/PDF_img.png" style="float: left; margin-bottom: 1rem;">
+
+#### Examples
+
+Let's run the Pushdown Automaton M on the following string: 
+
+```
+w = abbba43.51386abbba
+```
+
+```
+Enter string 1 of 15: abbba43.51386abbba
+Starting on State Q1
+$: Q1
+Read '$'
+Popped 'ε' from stack
+Pushed '$' to stack
+Moving to state Q2
+
+a: Q2
+Read 'a'
+Popped 'ε' from stack
+Pushed 'a' to stack
+Moving to state Q3
+
+b: Q3
+Read 'b'
+Popped 'ε' from stack
+Pushed 'b' to stack
+Moving to state Q3
+
+b: Q3
+Read 'b'
+Popped 'ε' from stack
+Pushed 'b' to stack
+Moving to state Q3
+
+b: Q3
+Read 'b'
+Popped 'ε' from stack
+Pushed 'b' to stack
+Moving to state Q3
+
+a: Q3
+Read 'a'
+Popped 'ε' from stack
+Pushed 'a' to stack
+Moving to state Q4
+
+4: Q4
+Read '4'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q5
+
+3: Q5
+Read '3'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q5
+
+.: Q5
+Read '.'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q7
+
+5: Q7
+Read '5'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q7
+
+1: Q7
+Read '1'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q7
+
+3: Q7
+Read '3'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q7
+
+8: Q7
+Read '8'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q7
+
+6: Q7
+Read '6'
+Popped 'ε' from stack
+Pushed 'ε' to stack
+Moving to state Q7
+
+a: Q7
+Read 'a'
+Popped 'a' from stack
+Pushed 'ε' to stack
+Moving to state Q9
+
+b: Q9
+Read 'b'
+Popped 'b' from stack
+Pushed 'ε' to stack
+Moving to state Q9
+
+b: Q9
+Read 'b'
+Popped 'b' from stack
+Pushed 'ε' to stack
+Moving to state Q9
+
+b: Q9
+Read 'b'
+Popped 'b' from stack
+Pushed 'ε' to stack
+Moving to state Q9
+
+a: Q9
+Read 'a'
+Popped 'a' from stack
+Pushed 'ε' to stack
+Moving to state Q10
+
+ε: Q10
+Read 'ε'
+Popped '$' from stack
+Pushed 'ε' to stack
+
+String is accepted!
+```
