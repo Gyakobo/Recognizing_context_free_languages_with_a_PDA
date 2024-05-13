@@ -28,4 +28,4 @@ Language A can be defined by a 4-tuple context-free grammar $G = (V, \Sigma, R, 
 
 
 
-<img src="" style="float: left; margin-bottom: 1rem;">
+<img src="assets/PDF_img.png" style="float: left; margin-bottom: 1rem;">
