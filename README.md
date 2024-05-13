@@ -44,15 +44,15 @@ $S \Rightarrow aTa \Rightarrow abTba \Rightarrow abbTbba \Rightarrow abba(C)abba
 
 $\Rightarrow abba(C* (C))abba \Rightarrow abba(C * (C-C+C))abba$
 
-$abba(H * (C-C+C))abba \Rightarrow abba(Y.Y * (C-C+C))abba \Rightarrow abba(N.N * (C-C+C))abba$
+$\Rightarrow abba(H * (C-C+C))abba \Rightarrow abba(Y.Y * (C-C+C))abba \Rightarrow abba(N.N * (C-C+C))abba$
 
-$abba(1.2*(C-C+C))abba \Rightarrow abba(1.2*(H-C+C))abba \Rightarrow abba(1.2 * (Y.-C+C))abba$
+$\Rightarrow abba(1.2*(C-C+C))abba \Rightarrow abba(1.2*(H-C+C))abba \Rightarrow abba(1.2 * (Y.-C+C))abba$
 
-$abba(1.2*(N.-C+C))abba \Rightarrow abba(1.2*(1.-C+C))abba \Rightarrow abba(1.2 * (1. - H + C))abba$
+$\Rightarrow abba(1.2*(N.-C+C))abba \Rightarrow abba(1.2*(1.-C+C))abba \Rightarrow abba(1.2 * (1. - H + C))abba$
 
-$abba(1.2 * (1. - Y. + C))abba \Rightarrow abba(1.2 * (1. - N. + C))abba \Rightarrow abba(1.2 * (1. - 2. + C))$
+$\Rightarrow abba(1.2 * (1. - Y. + C))abba \Rightarrow abba(1.2 * (1. - N. + C))abba \Rightarrow abba(1.2 * (1. - 2. + C))$
 
-$abba(1.2 * (1. - 2. + H))abba \Rightarrow abba(1.2 * (1. - 2. + Y.Y))abba \Rightarrow abba(1.2 * (1. - 2. + 3.1))abba$
+$\Rightarrow abba(1.2 * (1. - 2. + H))abba \Rightarrow abba(1.2 * (1. - 2. + Y.Y))abba \Rightarrow abba(1.2 * (1. - 2. + 3.1))abba$
 
 ### Pushdown Automaton M
 
