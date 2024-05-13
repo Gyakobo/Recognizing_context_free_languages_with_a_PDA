@@ -64,6 +64,8 @@ Here's a simple graphic demonstration of the PDA:
 
 Let's run the Pushdown Automaton M on the following string: 
 
+> Note: The PDA also utilizes a stack data structure in order to keep track of the a's and b's in the string 
+
 ```
 w = abbba43.51386abbba
 ```
