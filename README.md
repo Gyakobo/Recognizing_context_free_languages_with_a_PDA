@@ -26,6 +26,17 @@ Language A can be defined by a 4-tuple context-free grammar $G = (V, \Sigma, R, 
 
 * V = {S, T, C, H, Y, N} (set of variables, or non-terminals)
 
+* $\Sigma$ = {., 0, 1, 2, ..., 9, +, -, *, /, (, ), a, b} (Mind you $\Sigma$ is the alphabet of all available letters, digits, and characters)
 
+* S (start variable)
+
+Speaking about R, the rules are as follows:
+
+* $S \rightarrow aTa$
+* $T \rightarrow bTb|aCa$
+* $C \rightarrow C+C|C-C|C*C|C/C|(C)|H$
+* $H \rightarrow Y.Y|Y.|.Y$ 
+* $Y \rightarrow NY|N$
+* $N \rightarrow 0|1|2|3|4|5|6|7|8|9$
 
 <img src="assets/PDF_img.png" style="float: left; margin-bottom: 1rem;">
