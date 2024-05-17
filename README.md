@@ -18,7 +18,8 @@ $$
 
 * Here is an example string: $abba(1.2*(1.-2.+3.1))abba$
 
-> Note: Language A is not a regular language, however, it's a context-free language
+>[!Note] 
+>Language A is not a regular language, however, it's a context-free language
 
 ### Context Free Grammar for A
 
@@ -64,7 +65,8 @@ Here's a simple graphic demonstration of the PDA:
 
 Let's run the Pushdown Automaton M on the following string: 
 
-> Note: The PDA also utilizes a stack data structure in order to keep track of the a's and b's in the string 
+>[!Note] 
+>The PDA also utilizes a stack data structure in order to keep track of the a's and b's in the string 
 
 ```
 w = abbba43.51386abbba
