@@ -6,7 +6,7 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 The following project should define a PDA that in its turn would recognize a specific context-free language.
 
 ## Let's have a look at Language A
-* A, in simple terms, is a language that defines all arithmetic floating point numbers and valid operations on said decimal or whole numbers. 
+* A, in simple terms, is a language that defines all necessary arithmetic floating point numbers and valid operations on said decimal or whole numbers. 
 
 * A select string of language A is of the form: 
 $$
