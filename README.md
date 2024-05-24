@@ -66,7 +66,7 @@ Here's a simple graphic demonstration of the PDA:
 Let's run the Pushdown Automaton M on the following string: 
 
 >[!Note] 
->The PDA also utilizes a stack data structure in order to keep track of the a's and b's in the said string 
+>The PDA also utilizes a stack data structure in order to keep track of the a's and b's in the said string. Basically it's using two main commands to do so: push and pop. Each of these commands either insert a value on the top of the stack or remove the said value also from the top of the stack. 
 
 ```
 w = abbba43.51386abbba
