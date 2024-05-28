@@ -9,9 +9,7 @@ The following project should define a PDA that in its turn would recognize a spe
 * A, in simple terms, is a language that defines all necessary arithmetic floating point numbers and valid operations on said decimal or whole numbers. 
 
 * A select string of language A is of the form: 
-$$
-ab^kaEab^ka, k>=0
-$$
+  $ab^kaEab^ka, k>=0$
 
 * Here is an example string: $abba(1.2*(1.-2.+3.1))abba$
 
