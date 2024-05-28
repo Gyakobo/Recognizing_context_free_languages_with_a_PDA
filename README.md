@@ -10,8 +10,7 @@ The following project should define a PDA that in its turn would recognize a spe
 
 * A select string of language A is of the form: 
 $$
-ab^kaEab^ka,
-k>=0
+ab^kaEab^ka, k>=0
 $$
 
 * Here is an example string: $abba(1.2*(1.-2.+3.1))abba$
