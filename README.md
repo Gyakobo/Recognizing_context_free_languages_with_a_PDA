@@ -52,7 +52,7 @@ $\Rightarrow abba(1.2 * (1. - Y. + C))abba \Rightarrow abba(1.2 * (1. - N. + C))
 
 $\Rightarrow abba(1.2 * (1. - 2. + H))abba \Rightarrow abba(1.2 * (1. - 2. + Y.Y))abba \Rightarrow abba(1.2 * (1. - 2. + 3.1))abba$
 
-### Pushdown Automaton M
+### Pushdown Automaton 'M'
 
 Here's a simple graphic demonstration of the PDA:
 
