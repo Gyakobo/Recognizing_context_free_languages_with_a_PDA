@@ -194,3 +194,6 @@ Pushed 'ε' to stack
 
 String is accepted!
 ```
+
+## License
+MIT
